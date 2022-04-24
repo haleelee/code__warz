@@ -14,7 +14,7 @@ function duplicateEncode(word){
   // split the string and toLowerCase
   
   let lowerCaseWord = word.toLowerCase();
-  console.log(lowerCaseWord);
+  
   let newStr = '';
 
   for (let i = 0; i < lowerCaseWord.length; i++){
@@ -24,7 +24,8 @@ function duplicateEncode(word){
       newStr = newStr + ")"; //this adds ")" if the char is a duplicate
     }
   }
-  console.log(newStr);
+  // console.log(newStr);
+  return newStr;
 }
 
 duplicateEncode("Success")
