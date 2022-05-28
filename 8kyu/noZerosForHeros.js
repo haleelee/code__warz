@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/570a6a46455d08ff8d001002/train/javascript
 
-// Numbers ending with zeros are boring.
+// Numbers ending with zeros are boring!
 
 // They might be fun in your world, but not here.
 
